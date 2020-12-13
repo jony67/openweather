@@ -1,6 +1,6 @@
 ﻿Пример работы с API OpenWetherMap на Python (https://openweathermap.org). 
 ## Получение сведений о текущей погоде и прогнозе с использованием бесплатного ключа API сайта OpenWeather (https://openweathermap.org/)
-
+Для использования скрипта необходимо зарегистрироваться на сайте https://openweathermap.org, получить бесплатный ключ API KEY и отредактировать строку: key = 'API KEY'.
 ### Доступные URL API для текущей погоды (Current weather API):
 1. По городу:
 * 'api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}'
