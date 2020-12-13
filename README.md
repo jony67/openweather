@@ -31,4 +31,4 @@
 'api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude={part}&lang={language}&units={units}&appid={API key}'
 
 # Пример работы в консоли IPython:
-![Пример работы](./jpg/sample.jpg)
+![Пример работы](/jpg/openweather.png)
