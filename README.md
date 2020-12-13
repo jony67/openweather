@@ -1,7 +1,7 @@
 ﻿Пример работы с API OpenWetherMap на Python (https://openweathermap.org). 
-#Получение сведений о текущей погоде и прогнозе с использованием бесплатного ключа API сайта OpenWeather (https://openweathermap.org/)
+# Получение сведений о текущей погоде и прогнозе с использованием бесплатного ключа API сайта OpenWeather (https://openweathermap.org/)
 
-##Доступные URL API для текущей погоды (Current weather API):
+## Доступные URL API для текущей погоды (Current weather API):
  - по городу:
 'api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}'
 'api.openweathermap.org/data/2.5/weather?q={city name},{state code}&appid={API key}'
@@ -18,7 +18,7 @@
  - для нескольких городов по ID:
 'api.openweathermap.org/data/2.5/group?id={id,..,id}&appid={API key}'
 
-#Весь прогноз погоды одним вызовом (One Call API). Доступно:
+# Весь прогноз погоды одним вызовом (One Call API). Доступно:
  - текущая погода;
  - минутный прогноз на 1 час;
  - почасовой прогноз на 48 часов;
@@ -26,8 +26,8 @@
  - глобальные погодные оповещения;
  - исторические данные о погоде за предыдущие 5 дней.
 
-##Пример URL API:
+## Пример URL API:
 'api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude={part}&lang={language}&units={units}&appid={API key}'
 
-#Пример работы в консоли IPython:
-![Пример работы](./sample.jpg)
+# Пример работы в консоли IPython:
+![Пример работы](./jpg/sample.jpg)
